@@ -1,0 +1,20 @@
+[
+	{
+		"Id": 1,
+        "Latitude": -7.232589, 
+		"Longitude": -35.894468,
+		"Descricao": "<Strong>VEICULO: Carro</strong><br /> <strong>MODELO:</strong> Fiesta<br /> <strong>PLACA:</strong> PKW-2035 <br /> <strong>COR:</strong> Vermolho"
+    },
+    {
+		"Id": 2,
+        "Latitude": -7.225631, 
+		"Longitude": -35.883857,
+		"Descricao": "Conteúdo do InfoBox 2"
+    },
+    {
+		"Id": 3,
+        "Latitude": -7.221204, 
+		"Longitude": -35.886027,
+		"Descricao": "Conteúdo do InfoBox 3"
+    }
+]
