@@ -8,7 +8,7 @@ function initialize() {
 	
     var options = {
         zoom: 5,
-	center: latlng,
+		center: latlng,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
 
@@ -28,7 +28,7 @@ function abrirInfoBox(id, marker) {
 
 function carregarPontos() {
 	
-	$.getJSON('maps/js/pontos.json', function(pontos) {
+	$.getJSON('js/pontos.json', function(pontos) {
 		
 		var latlngbounds = new google.maps.LatLngBounds();
 		
@@ -37,7 +37,7 @@ function carregarPontos() {
 			var marker = new google.maps.Marker({
 				position: new google.maps.LatLng(ponto.Latitude, ponto.Longitude),
 				title: "Alerta de veiculo furtado!",
-				icon: 'maps/img/ico.png'
+				icon: 'img/ico.png'
 			});
 			
 			var myOptions = {
